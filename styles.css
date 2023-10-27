@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f7eb6;
+    color: white;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;  
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+.navbar a.normal-page:hover,
+.navbar a.active-page{
+    color: rgb(14, 148, 226);
+    transform: translateY(10px);
+}
+
+/* Style the container within the section */
+.container-fluid {
+    text-align: center; /* Center the content in the container */
+}
+
+/* Style the image */
+.image {
+    border-radius: 15%; /* Make the image circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Style the title and description */
+.hero_title {
+    font-size: 24px; /* Set the font size for the title */
+    font-weight: bold; /* Make the title bold */
+    margin-top: 10px; /* Add some space at the top */
+}
+
+.hero_desc {
+    font-size: 16px; /* Set the font size for the description */
+    color: #8e8a8a; /* Set the text color */
+    margin-top: 5px; /* Add some space below the title */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.portfolio-item h2 {
+    font-size: 24px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+}
+
+.portfolio-item .git-button {
+    color: aquamarine;
+    padding: 10px;
+}
+
+/* Styles for the section title */
+.service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Styles for the section description */
+  .service-description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Styles for the service cards container */
+  .service-cards {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Styles for each service card */
+  .service-card {
+    box-shadow: 0 4px 6px rgba(156, 132, 132, 0.1);
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+  }
+  
+  /* Styles for the image in the service card */
+  .service-image {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Styles for service card titles and descriptions */
+  .service-card-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .service-card-description {
+    padding: 0.5rem 0;
+  }
+  
+  /* Styles for design tools and languages lists */
+  .service-card-subtitle {
+    color: #38a169;
+    padding-top: 1rem;
+  }
+  
+  .service-card-list {
+    padding: 0.5rem 0;
+  } 
+
+  .service-cards div {
+    background-color: #38a169;
+  }
